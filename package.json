@@ -1,0 +1,18 @@
+{
+  "name": "chat-code-interview",
+  "version": "1.0.0",
+  "description": "partner chat code interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "shin min ho",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "crypto": "0.0.3",
+    "express": "^4.15.2",
+    "jade": "^1.11.0",
+    "nodemon": "^1.11.0"
+  }
+}

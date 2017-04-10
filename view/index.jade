@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title Socket.IO chat
+  body
+    h1 Socket.IO chat Code Interview Log In by Shin
+    form(method='post', action='/sign/login')
+      table
+        tr
+          td ID : 
+          td
+            input(type='text', name='id')
+        tr
+          td PASSWORD : 
+          td
+            input(type='password', name='password')
+        tr
+          td(colspan='2')
+            input(type='submit', value='Sign In')
+        tr
+          td(colspan='2')
+            a(href='/sign/signup') Socket.Io Chat Sign Up Not Yet?
