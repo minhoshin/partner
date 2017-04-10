@@ -1,3 +1,3 @@
-# partner code interview
+# partner
 
 running : npm test
